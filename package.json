@@ -1,0 +1,22 @@
+{
+  "name": "responsive-design-beginners-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.20",
+    "sass": "^1.56.2"
+  }
+}
