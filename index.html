@@ -15,18 +15,48 @@
     <script src="/app/js/script.js"></script>
   </head>
   <body>
-    <header></header>
-    <main>
+    <a href="#main" class="visually-hidden">Skip to main content</a>
+    <header class="topnav">
+      <h1 class="visually-hidden">Header</h1>
+      <div class="wrapper topnav__wrapper">
+        <a href="/" class="topnav__homelink">
+          <img
+            src="/img/logo-mythos.svg"
+            alt="Mythos homepage"
+            class="topnav__logo"
+            width="127"
+            height="37"
+          />
+        </a>
+        <nav>
+          <ul class="topnav__links">
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Features</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Pricing</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
       <article>
         <section class="wrapper">
           <h1>Find that elusive unicorn.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             minima illo nobis molestias dolorem non. Libero esse eligendi error
-            maxime nemo expedita, fugit nulla vero pariatur fugiat quis tenetur
-            tempore unde officia, dolores in provident possimus. Voluptatem nam
-            modi est illum veritatis dolorem minima, sequi unde praesentium ea
-            quae eligendi.
+            maxime nemo expedita,
+            <span
+              >fugit nulla vero pariatur fugiat quis tenetur tempore unde
+              officia, dolores in provident possimus.</span
+            >
+            <span>Voluptatem nam modi est illum veritatis dolorem minima,</span>
+            sequi unde praesentium ea quae eligendi.
           </p>
         </section>
         <section class="wrapper">
