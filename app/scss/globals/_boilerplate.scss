@@ -20,6 +20,11 @@ body {
   margin-block-end: 50vh; // Temp style, remove when done!
 }
 
+img {
+  display: block;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;

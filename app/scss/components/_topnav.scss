@@ -33,9 +33,7 @@
   }
 
   &__logo {
-    display: block;
     width: u.rem(70);
-    height: auto;
 
     @include u.breakpoint(large) {
       width: u.rem(127);
