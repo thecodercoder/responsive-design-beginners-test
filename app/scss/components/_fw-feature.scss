@@ -1,0 +1,16 @@
+@use '../util' as u;
+
+.fw-feature {
+  background-color: var(--fullwidth-bg);
+  color: var(--text-light);
+  text-align: center;
+
+  &__description {
+    max-width: 70ch;
+    margin-inline: auto;
+  }
+
+  &__image {
+    margin-inline: auto;
+  }
+}
