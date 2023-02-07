@@ -26,6 +26,11 @@ img {
   height: auto;
 }
 
+figure,
+blockquote {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;
