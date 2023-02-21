@@ -47,7 +47,7 @@ p {
 
   &.large {
     font-size: u.rem(24);
-    font-size: clamp(u.rem(24), 1.39rem + 0.48vw, 1.75rem);
+    font-size: clamp(u.rem(24), 1.39rem + 0.48vw, u.rem(28));
     margin-block-end: u.rem(40);
   }
 }

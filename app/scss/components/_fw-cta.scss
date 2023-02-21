@@ -1,0 +1,18 @@
+@use '../util' as u;
+
+.fw-cta {
+  // @include u.fullwidth;
+  background-image: var(--cta-gradient-bg);
+
+  &__wrapper {
+  }
+
+  &__title {
+  }
+
+  &__description {
+  }
+
+  &__button {
+  }
+}

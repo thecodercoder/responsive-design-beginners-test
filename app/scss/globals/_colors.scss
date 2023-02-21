@@ -1,3 +1,5 @@
+@use '../util' as u;
+
 :root {
   --main-bg: hsla(0, 0%, 100%, 1);
   --text-dark: hsla(233, 14%, 25%, 1);
@@ -6,7 +8,10 @@
   --hero-bg: hsla(232, 58%, 55%, 1);
   --button-primary-bg: hsla(180, 100%, 42%, 1);
   --button-primary-bg-hover: hsla(180, 100%, 37%, 1);
+  --button-primary-white-bg: hsla(0, 0%, 100%, 1);
+  --button-primary-white-bg-hover: hsla(0, 0%, 100%, 0.8);
   --button-primary-text: hsla(233, 14%, 25%, 1);
+
   --button-secondary-bg: transparent;
   --button-secondary-bg-hover: hsla(0, 0%, 100%, 1);
   --button-secondary-border: hsla(0, 0%, 100%, 1);
@@ -15,16 +20,19 @@
   --button-cta-bg: hsla(0, 0%, 100%, 1);
   --button-cta-text: hsla(233, 14%, 25%, 1);
   --fullwidth-bg: hsla(320, 85%, 41%, 1);
-  --cta-desktop: linear-gradient(
-    90deg,
-    hsla(233, 14%, 25%, 1) 0%,
-    hsla(232, 58%, 55%, 1) 56.34%,
-    hsla(180, 100%, 42%, 1) 112.47%
-  );
-  --cta-mobile: linear-gradient(
+  --cta-gradient-bg: linear-gradient(
     90deg,
     hsla(233, 14%, 25%, 1) 0%,
     hsla(232, 58%, 55%, 1) 76.28%,
     hsla(180, 100%, 42%, 1) 152.28%
   );
+
+  @include u.breakpoint(medium) {
+    --cta-gradient-bg: linear-gradient(
+      90deg,
+      hsla(233, 14%, 25%, 1) 0%,
+      hsla(232, 58%, 55%, 1) 56.34%,
+      hsla(180, 100%, 42%, 1) 112.47%
+    );
+  }
 }

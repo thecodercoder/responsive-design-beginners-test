@@ -1,0 +1,13 @@
+@mixin fullwidth {
+  color: var(--text-light);
+  text-align: center;
+
+  &__description {
+    max-width: 70ch;
+    margin-inline: auto;
+  }
+
+  &__image {
+    margin-inline: auto;
+  }
+}
