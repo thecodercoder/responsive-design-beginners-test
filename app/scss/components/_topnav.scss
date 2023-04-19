@@ -26,18 +26,6 @@
 
   &__homelink {
     justify-self: start;
-
-    &:hover {
-      opacity: 0.9;
-    }
-  }
-
-  &__logo {
-    width: u.rem(70);
-
-    @include u.breakpoint(large) {
-      width: u.rem(127);
-    }
   }
 
   &__links {
@@ -47,10 +35,6 @@
     // Flexbox styles
     // display: flex;
     // gap: 40px;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 
     @include u.breakpoint(large) {
       gap: 40px;

@@ -31,6 +31,13 @@ blockquote {
   margin: 0;
 }
 
+header ul,
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;
@@ -46,5 +53,11 @@ blockquote {
     background-color: #fff;
     border: 1px solid;
     padding: 0.5rem;
+  }
+}
+
+.hover-fade {
+  &:hover {
+    opacity: 0.9;
   }
 }

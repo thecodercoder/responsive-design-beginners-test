@@ -1,0 +1,24 @@
+@use '../util' as u;
+
+.logo {
+  width: u.rem(128);
+
+  &.sm-mobile {
+    @include u.breakpoint-down(xsmall) {
+      width: u.rem(70);
+    }
+  }
+}
+
+// min-width media query, less efficient
+// .logo {
+//   width: u.rem(70);
+
+//   @include u.breakpoint(medium) {
+//     width: u.rem(128);
+//   }
+
+//   &.large {
+//     width: u.rem(128);
+//   }
+// }
